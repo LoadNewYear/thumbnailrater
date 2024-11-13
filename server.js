@@ -1,7 +1,7 @@
 //const bodyParser = require('body-parser');
 const cors = require('cors');
 const express = require('express');
-const port = 3000;
+const port = 10000;
 const path = require('path');
 const sqlite3 = require('sqlite3');
 
