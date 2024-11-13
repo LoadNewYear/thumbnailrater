@@ -1,0 +1,5 @@
+<img src="http://img.youtube.com/vi/<%= urlid %>/0.jpg" alt="Thumbnail">
+<button hx-post="/rank/like" hx-vals='{
+                 "url": "<%= url %>"
+}'></button>
+<button hx-post="/rank/dislike" hx-params="<%= url %>"></button>
