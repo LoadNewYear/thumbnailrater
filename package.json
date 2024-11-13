@@ -2,7 +2,7 @@
   "name": "thumbnailrater",
   "version": "1.0.0",
   "description": "Thumbnail Rater is a project which attempts to solve the problem of small youtubers not being able to test their thumbnails out before publishing their youtube videos.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,11 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "better-sqlite3": "^11.5.0",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "ejs": "^3.1.10",
     "express": "^4.21.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "sqlite3": "^5.1.7"
   }
 }
